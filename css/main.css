@@ -1,3 +1,6 @@
+@import'mobile';
+@import'style';
+
 *{
     box-sizing: border-box;
 }
@@ -181,7 +184,7 @@ main{
 @for $x from 1 through 4 {
 .menu .nav-item:nth-child(#{$x})
 }
-/***MEDIA QUERY MIXINS*****/
+
 /****ABOUT****/
 #about {
     background:rgb(12, 12, 12);
